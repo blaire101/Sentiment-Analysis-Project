@@ -8,15 +8,15 @@ This task is a traditional NLP task: Text Classification for Sentiment Analysis.
 - build one or more model (e.g. Logistic Regression, Decision Tree, Neural Network) to train on such data set
 - test trained model on some evaluation metric (e.g. Precision, Recall, AUC)
 
-## 2. Development Environment
+## Development Environment
 
 Depend mainly on list the tools and libraries . For details, please check requirements.txt
 
-## 3. Project Structure
+## Project Structure
 
 This is a detailed description of the organizational structure of the project.
 
-### 3.1 organization structure
+### 1. organization structure
 
 directory structure |  description
 ------ | ------
@@ -28,7 +28,7 @@ predict_result | **prediction result for test.json**
 images | some pictures for data analysis
 **src** | **main code**
 
-### 3.2 code structure
+### 2. code structure
 
 src, core code |  description
 ------ | ------
@@ -37,7 +37,7 @@ src/constant.py | constant variables or infrequently changing variables
 src/util.py | data processing module, mainly including data reading and processing functions
 src/model.py | deep learning model definition
 
-### 3.2.1 deep learning model
+### 3. deep learning model
 
 **src, main train and predict code** | description
 ------ | ------
@@ -48,7 +48,7 @@ src/main\_train\_dl\_3\_cnn\_and\_predict.py | cnn\_glove\_embedding
 src/main\_train\_dl\_4\_rcnn\_glove\_embedding\_and\_predict.py | rcnn\_glove\_embedding
 src/main\_train\_dl\_5\_elmo_like\_and\_predict.py | elmo_like\_glove\_embedding
 
-### 3.2.2 machine learning model
+### 4. machine learning model
 
 **src, main train and predict code** | description
 ------ | ------
@@ -57,7 +57,7 @@ src/main\_train\_ml\_1\_lr\_word\_and\_predict.py | logistic regression + word n
 src/main\_train\_ml\_2\_lr\_char\_and\_predict.py | logistic regression + char ngram
 src/main\_train\_ml\_3\_lr\_word\_char\_and\_predict.py | logistic regression + word\_char ngram
 
-## 4. Instructions
+## Instructions
 
 - Prepare pyenv & pip install -r requirement.txt
 - config data file storage path in config.py 
@@ -103,7 +103,7 @@ python src/main_train_dl_3_cnn_and_predict.py  -ep 10
 python src/main_train_dl_5_elmo_like_and_predict.py -ep 10
 ```
 
-## 5. Submit Requirement
+## Submit Requirement
 
 The output should include
 
