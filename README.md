@@ -32,30 +32,30 @@ images | some pictures for data analysis
 
 src, core code |  description
 ------ | ------
--- src/config.py | project configuration information module, mainly including file reading or storage path information
--- src/constant.py | constant variables or infrequently changing variables
--- src/util.py | data processing module, mainly including data reading and processing functions
--- src/model.py | deep learning model definition
+src/config.py | project configuration information module, mainly including file reading or storage path information
+src/constant.py | constant variables or infrequently changing variables
+src/util.py | data processing module, mainly including data reading and processing functions
+src/model.py | deep learning model definition
 
 ### 3.2.1 deep learning model
 
 **src, main train and predict code** | description
 ------ | ------
--- src/main\_train\_dl_... | model training module, model training process includes data processing, feature extraction, model training, model validation and other steps.
--- src/main\_train\_dl\_1\_rnn\_simple\_and\_predict.py | rnn simple non glove\_embedding
--- src/main\_train\_dl\_2\_rnn\_glove\_embedding\_and\_predict.py | rnn\_glove\_embedding
--- src/main\_train\_dl\_3\_cnn\_and\_predict.py | cnn\_glove\_embedding
--- src/main\_train\_dl\_4\_rcnn\_glove\_embedding\_and\_predict.py | rcnn\_glove\_embedding
--- src/main\_train\_dl\_5\_elmo_like\_and\_predict.py | elmo_like\_glove\_embedding
+src/main\_train\_dl_... | model training module, model training process includes data processing, feature extraction, model training, model validation and other steps.
+src/main\_train\_dl\_1\_rnn\_simple\_and\_predict.py | rnn simple non glove\_embedding
+src/main\_train\_dl\_2\_rnn\_glove\_embedding\_and\_predict.py | rnn\_glove\_embedding
+src/main\_train\_dl\_3\_cnn\_and\_predict.py | cnn\_glove\_embedding
+src/main\_train\_dl\_4\_rcnn\_glove\_embedding\_and\_predict.py | rcnn\_glove\_embedding
+src/main\_train\_dl\_5\_elmo_like\_and\_predict.py | elmo_like\_glove\_embedding
 
 ### 3.2.2 machine learning model
 
 **src, main train and predict code** | description
 ------ | ------
--- src/main\_train\_ml_... | Model training module, model training process includes data processing, feature extraction, model training, model validation and other steps.
--- src/main\_train\_ml\_1\_lr\_word\_and\_predict.py | logistic regression + word ngram
--- src/main\_train\_ml\_2\_lr\_char\_and\_predict.py | logistic regression + char ngram
--- src/main\_train\_ml\_3\_lr\_word\_char\_and\_predict.py | logistic regression + word\_char ngram
+src/main\_train\_ml_... | Model training module, model training process includes data processing, feature extraction, model training, model validation and other steps.
+src/main\_train\_ml\_1\_lr\_word\_and\_predict.py | logistic regression + word ngram
+src/main\_train\_ml\_2\_lr\_char\_and\_predict.py | logistic regression + char ngram
+src/main\_train\_ml\_3\_lr\_word\_char\_and\_predict.py | logistic regression + word\_char ngram
 
 ## 4. Instructions
 
@@ -97,10 +97,10 @@ other deep learning model, train and predict
  `-ep 0`
 
 ```python
-# python src/main_train_dl_1_rnn_simple_and_predict.py -ep 10
-# python src/main_train_dl_2_rnn_glove_embedding_and_predict.py -ep 10
-# python src/main_train_dl_3_cnn_and_predict.py  -ep 10
-# python src/main_train_dl_5_elmo_like_and_predict.py -ep 10
+python src/main_train_dl_1_rnn_simple_and_predict.py -ep 10
+python src/main_train_dl_2_rnn_glove_embedding_and_predict.py -ep 10
+python src/main_train_dl_3_cnn_and_predict.py  -ep 10
+python src/main_train_dl_5_elmo_like_and_predict.py -ep 10
 ```
 
 ## 5. Submit Requirement
