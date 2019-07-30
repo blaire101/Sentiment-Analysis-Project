@@ -1,16 +1,12 @@
 # Sentiment Analysis Project
 
-This test is to verify NLP project capacity. 
+## Test Description
 
-## 1. Test Description
-
-This task is a traditional NLP task: Text Classification for Sentiment Analysis. The interviewee should show his/her ability to 
+This task is a traditional NLP task: Text Classification for Sentiment Analysis.
 
 - process raw data to extract features.
 - build one or more model (e.g. Logistic Regression, Decision Tree, Neural Network) to train on such data set
 - test trained model on some evaluation metric (e.g. Precision, Recall, AUC)
-
-Any tools or libraries can be used to finish this task.
 
 ## 2. Development Environment
 
@@ -36,7 +32,6 @@ images | some pictures for data analysis
 
 src, core code |  description
 ------ | ------
-**src** | **interpretative statement**
 -- src/config.py | project configuration information module, mainly including file reading or storage path information
 -- src/constant.py | constant variables or infrequently changing variables
 -- src/util.py | data processing module, mainly including data reading and processing functions
@@ -67,11 +62,6 @@ src, core code |  description
 - Prepare pyenv & pip install -r requirement.txt
 - config data file storage path in config.py 
 - run script: run.sh , The training model is saved and the (precision\_score, recall\_score, f1-score) of the test set will be shown by log.
-
-pyenv installation， For details, please check:
-
-- [pyenv website](https://github.com/pyenv/pyenv-installer)
-- [ops pyenv install](http://www.shopee.ai/2017/10/18/ops/ops-pyenv-install/)
 
 Tips:
 
@@ -115,15 +105,10 @@ other deep learning model, train and predict
 
 ## 5. Submit Requirement
 
-submit his/her codes with a single entry (e.g. run.sh, run.py) to train and test model.
-
 The output should include
 
 - prediction result for test.json
 - evaluation result for training and predicting performance
-
-A readme is required to briefly introduce the implementation and to list the tools and libraries used.
-
 
 ## Reference
 
