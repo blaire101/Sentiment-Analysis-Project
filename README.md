@@ -68,7 +68,7 @@ Tips:
 - sh run.sh , only run a best model 
 
 ```python
-# python src/main_train_dl_4_rcnn_glove_embedding_and_predict.py -ep 10
+python src/main_train_dl_4_rcnn_glove_embedding_and_predict.py -ep 10
 ```
 
 rcnn model metrics result:
@@ -84,9 +84,9 @@ test recall_score: 0.8123827392120075
 other machine learning model, train and predict
 
 ```python
-# python src/main_train_ml_1_lr_word_and_predict.py
-# python src/main_train_ml_2_lr_char_and_predict.py
-# python src/main_train_ml_3_lr_word_char_and_predict.py
+python src/main_train_ml_1_lr_word_and_predict.py
+python src/main_train_ml_2_lr_char_and_predict.py
+python src/main_train_ml_3_lr_word_char_and_predict.py
 ```
 
 other deep learning model, train and predict
