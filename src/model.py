@@ -166,8 +166,8 @@ def get_elmo_like(max_num_words, max_len, embedding_dim_size, embedding_matrix):
 
     x_emb = concatenate([x1, x2])
 
-    gru_0_output = Bidirectional(GRU(80, return_sequences=True))(x_emb)
-    gru_1_output = Bidirectional(GRU(80, return_sequences=True))(gru_0_output)
+    gru_0_output = Bidirectional(GRU(100, return_sequences=True))(x_emb)
+    gru_1_output = Bidirectional(GRU(100, return_sequences=True))(gru_0_output)
 
     x_emb = concatenate([x_emb, gru_0_output, gru_1_output])
 
