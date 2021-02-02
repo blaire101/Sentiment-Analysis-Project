@@ -3,7 +3,7 @@ appnope==0.1.0
 astkit==0.5.4
 astor==0.7.1
 backcall==0.1.0
-bleach==3.0.2
+bleach==3.3.0
 boto==2.49.0
 boto3==1.9.74
 botocore==1.12.74
